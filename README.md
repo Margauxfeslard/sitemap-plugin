@@ -44,6 +44,12 @@ sylius_sitemap:
      resource: "@SitemapPlugin/Resources/config/routing.yml"
 ```
 
+5. Clear cache: 
+
+```
+php bin/console cache:clear
+```
+
 ## Usage
 
 The plugin defines three default URI's:
